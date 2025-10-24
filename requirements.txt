@@ -74,13 +74,13 @@ nest-asyncio==1.6.0
 nltk==3.9.2
 notebook==7.4.7
 notebook_shim==0.2.4
-numpy==1.26.4
+numpy>=1.23.5,<2
 overrides==7.7.0
 packaging==23.2
 pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.5
-Pillow==9.5.0
+Pillow>=9.0.0,<10
 platformdirs==4.5.0
 prometheus_client==0.23.1
 prompt_toolkit==3.0.52
