@@ -104,21 +104,15 @@ def pred(input_resume):
 import pickle
 import os
 
-# Base directory is the folder containing this script
-BASE_DIR = os.path.dirname(__file__)
 
-# Models directory (go up one level, then into 'models')
-MODEL_DIR = os.path.join(BASE_DIR, "..", "models")
 
 # Paths to model files
-ovr_classifier_path = os.path.join(MODEL_DIR, "ovr_model.pkl")
-tfidf_vectorizer_path = os.path.join(MODEL_DIR, "tfidf_vectorizer.pkl")
-label_encoder_path = os.path.join(MODEL_DIR, "label_encoder.pkl")
+ovr_classifier=pickle.load(open('ovr_classifier.pkl', 'rb'))  # Example file name, adjust as needed
+tfidf_vectorizer =pickle.load(open('tfidf_vectorizer.pkl', 'rb'))  # Example file name, adjust as needed
+label_encoder=pickle.load(open('label_encoder.pkl', 'rb'))  # Example file name
 
-# Optional: sanity check to make sure files exist
-for path in [ovr_classifier_path, tfidf_vectorizer_path, label_encoder_path]:
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"File not found: {path}")
+
+
 
 # Load models
 with open(ovr_classifier_path, "rb") as f:
