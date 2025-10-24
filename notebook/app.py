@@ -107,9 +107,10 @@ import os
 
 
 # Paths to model files
-ovr_classifier_path = r"D:\Data science\resume_screening_app\models\ovr_model.pkl"
-tfidf_vectorizer_path = r"D:\Data science\resume_screening_app\models\tfidf_vectorizer.pkl"
-label_encoder_path = r"D:\Data science\resume_screening_app\models\label_encoder.pkl"
+# Paths to model files (relative paths)
+ovr_classifier_path = "models/ovr_model.pkl"
+tfidf_vectorizer_path = "models/tfidf_vectorizer.pkl"
+label_encoder_path = "models/label_encoder.pkl"
 
 
 
