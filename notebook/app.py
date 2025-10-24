@@ -107,7 +107,7 @@ import os
 
 
 # Paths to model files
-ovr_classifier=pickle.load(open('ovr_classifier.pkl', 'rb'))  # Example file name, adjust as needed
+ovr_classifier=pickle.load(open('ovr_model.pkl', 'rb'))  # Example file name, adjust as needed
 tfidf_vectorizer =pickle.load(open('tfidf_vectorizer.pkl', 'rb'))  # Example file name, adjust as needed
 label_encoder=pickle.load(open('label_encoder.pkl', 'rb'))  # Example file name
 
