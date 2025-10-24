@@ -1,1 +1,1 @@
-"# Notebooks Folder\nIncludes data cleaning, EDA, and model training notebooks." 
+"# Models Folder\nStores trained ML models (.pkl) and vectorizers." 
