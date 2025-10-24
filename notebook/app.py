@@ -107,10 +107,9 @@ import os
 
 
 # Paths to model files
-ovr_classifier=pickle.load(open('D:\Data science\resume_screening_app\models\ovr_model.pkl', 'rb'))  # Example file name, adjust as needed
-tfidf_vectorizer =pickle.load(open('D:\Data science\resume_screening_app\models\tfidf_vectorizer.pkl', 'rb'))  # Example file name, adjust as needed
-label_encoder=pickle.load(open('D:\Data science\resume_screening_app\models\label_encoder.pkl', 'rb'))  # Example file name
-
+ovr_classifier_path = r"D:\Data science\resume_screening_app\models\ovr_model.pkl"
+tfidf_vectorizer_path = r"D:\Data science\resume_screening_app\models\tfidf_vectorizer.pkl"
+label_encoder_path = r"D:\Data science\resume_screening_app\models\label_encoder.pkl"
 
 
 
