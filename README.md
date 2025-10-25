@@ -75,7 +75,7 @@ You can run this application on your local machine by following these steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/resume_screener.git
+    git clone https://github.com/nihalsiddiqui7/resume_screener.git
     cd resume_screener
     ```
 
